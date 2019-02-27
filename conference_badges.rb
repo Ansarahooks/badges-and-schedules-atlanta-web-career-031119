@@ -10,9 +10,9 @@ end
 #  return greetings
 # end
 
-def batch_badge_creator(array)
+def batch_badge_creator(names)
   badges = []
-  array.each do |a|
-    badges << badge_maker(a)
+  names.each do |name|
+    badges << badge_maker(name)
   end
 end
