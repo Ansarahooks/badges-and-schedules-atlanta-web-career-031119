@@ -3,6 +3,5 @@ def badge_maker (name)
 end
 
 def batch_badge_creator (array)
-  badges = array
-  badge_maker(badges)
+  badge_maker(array)
 end
