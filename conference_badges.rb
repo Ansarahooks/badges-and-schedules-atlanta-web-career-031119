@@ -4,5 +4,5 @@ end
 
 def batch_badge_creator (array)
   badges = []
-  badge_maker(array)
+  badge_maker(badges)
 end
