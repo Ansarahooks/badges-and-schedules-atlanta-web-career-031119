@@ -15,4 +15,5 @@ def batch_badge_creator(names)
   names.each do |name|
     greeting << badge_maker(name)
   end
+  greeting
 end
