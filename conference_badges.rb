@@ -4,5 +4,4 @@ end
 
 def batch_badge_creator (array)
   badges = badge_maker(array)
-  badges.flatten
 end
